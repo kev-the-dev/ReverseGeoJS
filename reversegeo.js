@@ -76,7 +76,6 @@ function reverseGeo(lat, lon, callback, find) {
             }
         };
     };
-    var done = 0;
     gsearch(function () {
         if (find.length === 0) callback(res);
         else osearch(function () {
